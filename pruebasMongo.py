@@ -4,6 +4,6 @@ import certifi
 ca = certifi.where()
 
 
-client = pymongo.MongoClient("mongodb+srv://MisionTic31:Mongo2022@cluster0.vb7qywf.mongodb.net/db-registro-academico?retryWrites=true&w=majority",tlsCAFile=ca)
-baseDatos = client["db-registro-academico"]
+client = pymongo.MongoClient("mongodb+srv://alejo89:alejo123@registraduria-app.qrmr0ba.mongodb.net/bd_registro_academico?retryWrites=true&w=majority",tlsCAFile=ca)
+baseDatos = client["bd_registro_academico"]
 print(baseDatos.list_collection_names())
